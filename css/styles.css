@@ -4,10 +4,47 @@
 }
 .logotext{
   color: white;
-  font-size: 36px;
+  font-size: 34px;
   font-family: fantasy;
   text-align: center;
 }
 .centre-bordered{
   align-items: center;
 }
+.column{
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#breakfast{
+background-image:url(../images/foodtop/breakfast.jpg);
+background-repeat: no-repeat;
+font-size: 28px;
+color:white;
+height: vh
+}
+#lunch{
+  background-image: url(../images/foodtop/lunch.jpg);
+  background-repeat: no-repeat;
+  font-size: 28px;
+  color:white;
+  height: vh;
+}
+#dinner{
+  background-image: url(../images/foodtop/dinner.jpg);
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 28px;
+  height:vh;
+}
+.img-thumbnail{
+    padding: 2em;
+}
+.btn-default{
+    color:#F15A29;
+}    
