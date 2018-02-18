@@ -1,0 +1,13 @@
+.jumbotron{
+  background-image:url( ../images/backgrounds/landing.jpg);
+  background-size: cover;
+}
+.logotext{
+  color: white;
+  font-size: 36px;
+  font-family: fantasy;
+  text-align: center;
+}
+.centre-bordered{
+  align-items: center;
+}
