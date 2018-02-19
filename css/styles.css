@@ -47,4 +47,14 @@ height: vh
 }
 .btn-default{
     color:#F15A29;
-}    
+}
+.tab-pane {
+    color: #F15A29;
+    background-color: white;
+    padding: 2.3em 4em 2.3em 4em;
+    text-align: center;
+}
+#black-part{
+  background-image: url(../images/backgrounds/foodsBg.jpg);
+  height:600px;
+}
