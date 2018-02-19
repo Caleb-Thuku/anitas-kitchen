@@ -26,21 +26,24 @@ background-image:url(../images/foodtop/breakfast.jpg);
 background-repeat: no-repeat;
 font-size: 28px;
 color:white;
-height: vh
+height: 200px;
+text-align: center;
 }
 #lunch{
   background-image: url(../images/foodtop/lunch.jpg);
   background-repeat: no-repeat;
   font-size: 28px;
   color:white;
-  height: vh;
+  height: 200px;
+  text-align: center;
 }
 #dinner{
   background-image: url(../images/foodtop/dinner.jpg);
   background-repeat: no-repeat;
   color: white;
   font-size: 28px;
-  height:vh;
+  height:200px;
+  text-align: center;
 }
 .img-thumbnail{
     padding: 2em;
