@@ -1,6 +1,8 @@
-.jumbotron{
+.landing{
   background-image:url( ../images/backgrounds/landing.jpg);
   background-size: cover;
+  width:vh;
+  height:450px;
 }
 .logotext{
   color: white;
@@ -9,7 +11,7 @@
   text-align: center;
 }
 .centre-bordered{
-  align-items: center;
+  align-content: center;
 }
 .column{
   float: left;
@@ -26,21 +28,24 @@ background-image:url(../images/foodtop/breakfast.jpg);
 background-repeat: no-repeat;
 font-size: 28px;
 color:white;
-height: vh
+height: 200px;
+text-align: center;
 }
 #lunch{
   background-image: url(../images/foodtop/lunch.jpg);
   background-repeat: no-repeat;
   font-size: 28px;
   color:white;
-  height: vh;
+  height: 200px;
+  text-align: center;
 }
 #dinner{
   background-image: url(../images/foodtop/dinner.jpg);
   background-repeat: no-repeat;
   color: white;
   font-size: 28px;
-  height:vh;
+  height:200px;
+  text-align: center;
 }
 .img-thumbnail{
     padding: 2em;
@@ -55,6 +60,47 @@ height: vh
     text-align: center;
 }
 #black-part{
-  background-image: url(../images/backgrounds/foodsBg.jpg);
-  height:600px;
+  background-image: url("../images/backgrounds/foodsBg.jpg");
+  height:500px;
+}
+#happy-hour{
+  font-size: 28px;
+  text-align: center;
+  background-color: #E0DEE1;
+  height:15vh;
+  width:vw;
+}
+#party-time{
+  font-size: 28px;
+  text-align: center;
+  background-color: #F95A1A;
+  height:15vh;
+  width:vw;
+  color: white;
+}
+#subscribe{
+  background-image: url("../images/backgrounds/subscribe.jpg");
+  height: 200px;
+}
+#subscribe-text{
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-align:center;
+}
+#footer{
+  background-color: #F95A1A;
+}
+#footer-text{
+  color:white;
+  font-size: 28px;
+  text-align: center;
+}
+.footer-text{
+  color: white;
+  font-size: 22px;
+  text-align: center;
+}
+* {
+  border: -1px solid #E3E3E3
 }
